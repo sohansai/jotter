@@ -1,0 +1,35 @@
+# Virtual environments
+.venv/
+.venv*/
+venv/
+env/
+ENV/
+
+# Python caching
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
+*.whl
+*.tar.gz
+
+# IDEs and OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Project specifics
+*.db
+*.log
+*.tmp
+*.bak
